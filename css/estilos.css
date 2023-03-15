@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;400;600&display=swap');
+*{
+    font-family: 'Source Sans 3', sans-serif;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+/*header index*/
+.logoIndex{
+   text-align: center;  
+   margin: 50px;
+   
+}
+
+.headerIndex{
+    text-align: center;
+    font-size: 1rem;
+}
+
+.navegadorIndex .anclaNav{
+    text-align: center;
+    color: black;
+    list-style: none;
+    background-color: rgb(238, 182, 200);
+    display: inline-block;
+    line-height: 40px;
+    
+    
+}
+
+
+/*main sección index*/
+
+.tituloPrincipalIndex{
+    background-image: url("../assets/img/fotoportada.jpg");
+    background-size: cover;
+    height: 70vh;
+    margin: 100px 0px;
+}
+
+.subtituloPrincipalIndex{
+    text-align: center;
+    padding: 20px;
+    font-size: 1rem;
+
+}
+
+.anclaNuestrosServiciosIndex{
+    text-align: center;
+    margin: 50px 10px;
+    font-size: 1.5rem;
+    color: black;
+    list-style: none;
+
+}
+
+.divNuestrosServiciosIndex img{
+    width: 300px;
+    height: 400px;
+}
+
+/*estilos footer*/
+
+.footerPrincipalIndex {
+    text-align: center;
+    color: black;
+    list-style: none;
+    background-color: rgb(238, 182, 200);
+    font-size: 1rem;
+}
+
+.divFooterIndex .anclaFooterIndex {
+    color: black;
+    font-size: 1rem;
+}
