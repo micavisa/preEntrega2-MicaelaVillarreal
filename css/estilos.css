@@ -16,18 +16,34 @@
 .headerIndex{
     text-align: center;
     font-size: 1rem;
+    list-style: none;
+    text-decoration: none;
+    color: black;
 }
 
-.navegadorIndex .anclaNav{
-    text-align: center;
+.navbar-nav{
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(238, 182, 200);
+    border-radius: 10px;
+    border: 1px solid rgb(238, 182, 200);
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1rem;
+}
+.nav-item{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-family: 'Source Sans 3', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
     color: black;
     list-style: none;
-    background-color: rgb(238, 182, 200);
-    display: inline-block;
-    line-height: 40px;
-    
-    
-}
+    }
 
 
 /*main sección index*/
@@ -39,26 +55,29 @@
     margin: 100px 0px;
 }
 
-.subtituloPrincipalIndex{
-    text-align: center;
-    padding: 20px;
-    font-size: 1rem;
+/* este es el subtitulo */
 
+.container h1{
+    text-align: center;
+    margin-bottom: 40px;
 }
 
-.anclaNuestrosServiciosIndex{
+.container img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* estilo main nuestros servicios */
+
+.nuestrosServicios{
     text-align: center;
-    margin: 50px 10px;
     font-size: 1.5rem;
-    color: black;
+    text-decoration: none;
     list-style: none;
-
+    color: black;
+    margin: 100px;
 }
 
-.divNuestrosServiciosIndex img{
-    width: 300px;
-    height: 400px;
-}
 
 /*estilos footer*/
 
@@ -68,6 +87,7 @@
     list-style: none;
     background-color: rgb(238, 182, 200);
     font-size: 1rem;
+    margin-top: 40px;
 }
 
 .divFooterIndex .anclaFooterIndex {
